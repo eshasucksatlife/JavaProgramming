@@ -18,3 +18,17 @@ public class reverseString {
      System.out.println(sb);
    }
 }
+
+// another method
+
+public class reverseString1{
+ public static void main(String[] args){
+  String str = "Hello";
+  int n = str.length();
+  String rev = "";
+for(int i = n-1 ; i>=0; i--){
+rev = rev + str.charAt(i);
+}
+ 
+System.out.println(rev);
+ }}
